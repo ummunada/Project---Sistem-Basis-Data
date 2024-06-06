@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2E5B1C24-55F4-C102-34F9-DDAC8F329016" name="Detail_Persyaratan">
+<createdBy>H P</createdBy>
+<createdTime>2023-05-03 12:12:24 UTC</createdTime>
+<generatorID>F4D2377B-46A7-5079-EB66-85C6597F1A38</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_detail_persyaratan" id="D755AFC4-7BC8-8935-639D-A3759BE1ADC0">
+<createdBy>H P</createdBy>
+<createdTime>2023-05-03 12:12:24 UTC</createdTime>
+<generatorID>674CD902-9166-D124-E007-5C36BB456490</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="keterangan" id="5F426009-B15E-90CD-2AAA-D2D4DFB1A70C">
+<createdBy>H P</createdBy>
+<createdTime>2023-05-03 12:12:24 UTC</createdTime>
+<generatorID>56168C7C-247D-F273-4664-E8221A317928</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Persyaratan_id_persyaratan" id="716789C8-6346-273D-36FB-1BD970B5E3F5">
+<createdBy>H P</createdBy>
+<createdTime>2023-05-03 12:12:24 UTC</createdTime>
+<generatorID>B0E537B5-3335-79F2-ACA3-7925EAABBB29</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7482454F-7E69-6422-D45C-F5D02EA9525C" referredColumn="4E85E657-B26F-962D-8DEC-D4ADB901BF44"/>
+</associations>
+</Column>
+<Column name="Jenis_Surat_id_jenis" id="17B94E15-17A9-E56A-62B3-772CD096345E">
+<createdBy>H P</createdBy>
+<createdTime>2023-05-03 12:27:28 UTC</createdTime>
+<generatorID>F10C49B3-3FC6-D7F1-F735-4BDD360BB19D</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="82D80D9E-21B4-78A5-8943-81A34128B85C" referredColumn="3610A386-20B9-6290-510B-61EA9A7A3C81"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="981C38AA-B49F-2D7E-5A19-C9CBCD019048" name="Detail_Persyaratan_PK">
+<createdBy>H P</createdBy>
+<createdTime>2023-05-03 12:12:24 UTC</createdTime>
+<generatorID>CB88695B-A46F-ED58-57E4-8CFCCEC40514</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D755AFC4-7BC8-8935-639D-A3759BE1ADC0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6B7045A7-F754-12F2-1F5D-C690033F6A47" name="Detail_Persyaratan_Persyaratan_FK">
+<createdBy>H P</createdBy>
+<createdTime>2023-05-03 12:12:24 UTC</createdTime>
+<generatorID>E18BE821-C109-87CD-2D59-C2909E2096CD</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="716789C8-6346-273D-36FB-1BD970B5E3F5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9906E251-7CF6-45EF-F31D-05F3EE085C7C" name="Detail_Persyaratan_Jenis_Surat_FK">
+<createdBy>H P</createdBy>
+<createdTime>2023-05-03 12:27:28 UTC</createdTime>
+<generatorID>62043448-4E92-0105-9FC1-C925334AEB92</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="17B94E15-17A9-E56A-62B3-772CD096345E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

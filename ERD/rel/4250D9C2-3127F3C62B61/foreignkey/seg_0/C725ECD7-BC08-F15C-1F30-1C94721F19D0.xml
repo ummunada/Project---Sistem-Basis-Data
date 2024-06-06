@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="C725ECD7-BC08-F15C-1F30-1C94721F19D0" containerWithKeyObject="19B5410B-524F-6D4D-5B7A-9FA8CA4E6D8F" localFKIndex="65D97A9C-A92D-5759-D6D6-BFA1B97CE3DA" name="Permohonan_Surat_Petugas_FK">
+<createdBy>H P</createdBy>
+<createdTime>2023-05-03 12:12:24 UTC</createdTime>
+<generatorID>EDFE427A-D23B-AE82-FCC4-0F7D814EE4D8</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<referredTableLongName>Petugas</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>6FBE208E-4CB7-29DB-976C-DFCAC8265648</referredTableID>
+<keyObject>C168C801-43BC-B969-17F2-EAD2F3FD39C2</keyObject>
+<referredKeyID>C168C801-43BC-B969-17F2-EAD2F3FD39C2</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_Petugas</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,70 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D7F5CBE6-5685-A670-13D6-13146BF5E22E" name="Persyaratan">
+<createdBy>Icha</createdBy>
+<createdTime>2023-05-02 05:26:58 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="4250D9C2-9CBD-5FA1-A971-3127F3C62B61" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_persyaratan" id="77EB91AC-C667-FDAF-AF6D-44C4C04EDE36">
+<createdBy>Icha</createdBy>
+<createdTime>2023-05-02 05:27:14 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="4250D9C2-9CBD-5FA1-A971-3127F3C62B61" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fc_kk" id="0D79C4B8-F6C7-3EFE-B3A5-C52FF1CCE736">
+<createdBy>Icha</createdBy>
+<createdTime>2023-05-02 10:50:59 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="4250D9C2-9CBD-5FA1-A971-3127F3C62B61" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT010</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fc_ktp" id="BBFA2B4C-E743-A116-1670-AA2ABFCCB3CD">
+<createdBy>Icha</createdBy>
+<createdTime>2023-05-02 10:51:17 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="4250D9C2-9CBD-5FA1-A971-3127F3C62B61" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT010</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8200E354-D152-7971-1994-0517723521E3" name="detail_persyaratan PK">
+<createdBy>Icha</createdBy>
+<createdTime>2023-05-02 05:27:27 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="4250D9C2-9CBD-5FA1-A971-3127F3C62B61" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>77EB91AC-C667-FDAF-AF6D-44C4C04EDE36</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,163 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0306F549-0BDE-3049-B57C-BE06131EAC97" name="Kepala_Desa">
+<createdBy>H P</createdBy>
+<createdTime>2023-05-03 12:12:24 UTC</createdTime>
+<generatorID>5CB00C15-EF0A-FE64-896A-ACAA3B7FB038</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_kepala_desa" id="F3652F6A-94CA-9EC2-C062-2B29339E9517">
+<createdBy>H P</createdBy>
+<createdTime>2023-05-03 12:12:24 UTC</createdTime>
+<generatorID>C06EDF99-9957-2097-7E19-FB0B5C079AD7</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nama_lengkap" id="576B1439-FA6F-3EF2-C113-18F1D41954C2">
+<createdBy>H P</createdBy>
+<createdTime>2023-05-03 12:12:24 UTC</createdTime>
+<generatorID>3392279E-DF56-757F-8DB5-D25527604712</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>64</dataTypeSize>
+<ownDataTypeParameters>64,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NIPD" id="8FEEB95A-8924-CED9-4068-67228F5EFE94">
+<createdBy>H P</createdBy>
+<createdTime>2023-05-03 12:12:24 UTC</createdTime>
+<generatorID>1814DBE0-4D1F-B1BD-5E9C-410460B838B2</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32</dataTypeSize>
+<ownDataTypeParameters>32,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="jenis_kelamin" id="12AB8F14-DF84-B9E1-AA36-23BC951FE6CB">
+<createdBy>H P</createdBy>
+<createdTime>2023-05-03 12:12:24 UTC</createdTime>
+<generatorID>8855C10F-D2DC-14F8-4ECD-3E523D5AED20</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>64</dataTypeSize>
+<ownDataTypeParameters>64,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tempat_lahir" id="62B70C2A-DDA4-C305-DE76-F07B00022010">
+<createdBy>H P</createdBy>
+<createdTime>2023-05-03 12:12:24 UTC</createdTime>
+<generatorID>24A2D6DA-0667-539D-818C-E059C06FC462</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32</dataTypeSize>
+<ownDataTypeParameters>32,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tanggal_lahir" id="53C65981-8334-2C12-3BC1-EB9C8F71B60A">
+<createdBy>H P</createdBy>
+<createdTime>2023-05-03 12:12:24 UTC</createdTime>
+<generatorID>BA52F6E3-E91E-99AA-06B9-40A6C5F8E222</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="alamat" id="9DE3F5FD-91F9-5D4D-5A3D-DDA9006A64F3">
+<createdBy>H P</createdBy>
+<createdTime>2023-05-03 12:12:24 UTC</createdTime>
+<generatorID>67AD50EC-0D01-6A04-BFD6-3B32124FE61E</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="jabatan" id="937AD645-AC20-ACBA-4892-350EE034AAD1">
+<createdBy>H P</createdBy>
+<createdTime>2023-05-03 12:12:24 UTC</createdTime>
+<generatorID>2382D495-E673-2DFC-D9AF-B7968F99C6C4</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tanggal_masuk" id="03624B5E-8450-D749-3D28-F3B3E99817AD">
+<createdBy>H P</createdBy>
+<createdTime>2023-05-03 12:12:24 UTC</createdTime>
+<generatorID>F5DCF0DB-729F-62FC-5112-E19027ECD772</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tanggal_keluar" id="012EAB09-E247-1CC9-9364-18C5C2461C4C">
+<createdBy>H P</createdBy>
+<createdTime>2023-05-03 12:12:24 UTC</createdTime>
+<generatorID>2D3C0955-F7BE-7FE7-B83F-1878695B646B</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="no_telepon" id="BF842470-8A53-179B-7ADB-6731A0CAE949">
+<createdBy>H P</createdBy>
+<createdTime>2023-05-03 12:12:24 UTC</createdTime>
+<generatorID>77395273-3C01-7C1B-AD18-5E1D6618266C</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16</dataTypeSize>
+<ownDataTypeParameters>16,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6D6AA005-B3C6-80D5-CE3C-41841A60829D" name="Kepala_Desa_PK">
+<createdBy>H P</createdBy>
+<createdTime>2023-05-03 12:12:24 UTC</createdTime>
+<generatorID>718670A8-3F0B-97FF-C2B3-425F7EDE100D</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F3652F6A-94CA-9EC2-C062-2B29339E9517"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A116E777-5486-7C79-2BB6-A47158FA4802" name="Kepala_Desa_NIPD_UN">
+<createdBy>H P</createdBy>
+<createdTime>2023-05-03 12:12:24 UTC</createdTime>
+<generatorID>419DEA32-0FE4-00AB-A2E3-AA2CB752B30B</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8FEEB95A-8924-CED9-4068-67228F5EFE94"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

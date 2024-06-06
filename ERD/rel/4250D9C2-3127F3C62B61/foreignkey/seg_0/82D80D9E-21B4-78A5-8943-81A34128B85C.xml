@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="82D80D9E-21B4-78A5-8943-81A34128B85C" containerWithKeyObject="2E5B1C24-55F4-C102-34F9-DDAC8F329016" localFKIndex="9906E251-7CF6-45EF-F31D-05F3EE085C7C" name="Detail_Persyaratan_Jenis_Surat_FK">
+<createdBy>H P</createdBy>
+<createdTime>2023-05-03 12:27:28 UTC</createdTime>
+<generatorID>62043448-4E92-0105-9FC1-C925334AEB92</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<referredTableLongName>Jenis_Surat</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>1BB987D3-3961-3E7D-094F-2B63B9909F66</referredTableID>
+<keyObject>5ED90D44-3CD9-6FE2-062C-E7C0381F8F98</keyObject>
+<referredKeyID>5ED90D44-3CD9-6FE2-062C-E7C0381F8F98</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_jenis</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

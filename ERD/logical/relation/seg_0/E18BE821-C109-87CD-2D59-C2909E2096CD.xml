@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_55" directorySegmentName="seg_0" id="E18BE821-C109-87CD-2D59-C2909E2096CD">
+<createdBy>Icha</createdBy>
+<createdTime>2023-05-03 07:00:46 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="4250D9C2-9CBD-5FA1-A971-3127F3C62B61" value="true"/>
+</engineerTo>
+<sourcePk>8200E354-D152-7971-1994-0517723521E3</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>termuat di</nameOnSource>
+<nameOnTarget>memuat</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>D7F5CBE6-5685-A670-13D6-13146BF5E22E</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>F4D2377B-46A7-5079-EB66-85C6597F1A38</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

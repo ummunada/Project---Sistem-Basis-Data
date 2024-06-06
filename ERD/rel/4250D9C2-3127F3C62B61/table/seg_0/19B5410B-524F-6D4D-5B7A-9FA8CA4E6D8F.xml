@@ -1,0 +1,209 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="19B5410B-524F-6D4D-5B7A-9FA8CA4E6D8F" name="Permohonan_Surat">
+<createdBy>H P</createdBy>
+<createdTime>2023-05-03 12:12:24 UTC</createdTime>
+<generatorID>5592614B-0869-F5F5-48B2-EBCCFAF9CA2C</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_permohonan" id="237B7AD6-6F0E-733E-73E8-AE4C6BB41051">
+<createdBy>H P</createdBy>
+<createdTime>2023-05-03 12:12:24 UTC</createdTime>
+<generatorID>40DD28E8-A562-769B-0203-F5B44C861E82</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tanggal_permohonan" id="B4DC597A-6236-5DEE-35C9-D29392AA0B41">
+<createdBy>H P</createdBy>
+<createdTime>2023-05-03 12:12:24 UTC</createdTime>
+<generatorID>BF3919E4-3B4D-D5E0-F817-C45FD7356F4A</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="no_surat" id="93930049-BDA4-2167-DFC4-9F56BAE74698">
+<createdBy>H P</createdBy>
+<createdTime>2023-05-03 12:12:24 UTC</createdTime>
+<generatorID>4561ABAA-27C6-D939-2889-9BE20330CFA9</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="keperluan" id="A3DC4016-2F5F-4993-09CB-F21EA69692C7">
+<createdBy>H P</createdBy>
+<createdTime>2023-05-03 12:12:24 UTC</createdTime>
+<generatorID>22213564-37CA-FFA0-4514-EF8A5D67DA62</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="status" id="D79449E6-E435-AE8A-A341-4E9875310076">
+<createdBy>H P</createdBy>
+<createdTime>2023-05-03 12:12:24 UTC</createdTime>
+<generatorID>55E35328-9E6E-2983-99F6-14DA5BDBF527</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>64</dataTypeSize>
+<ownDataTypeParameters>64,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="keterangan" id="F2640172-3D79-6819-C946-8B418C15E62C">
+<createdBy>H P</createdBy>
+<createdTime>2023-05-03 12:12:24 UTC</createdTime>
+<generatorID>A807F2B6-1854-9311-3F9D-56CD7439D1A1</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Kepala_Desa_id_kepala_desa" id="B497C7AC-BE99-1B72-1CF2-570264145A04">
+<createdBy>H P</createdBy>
+<createdTime>2023-05-03 12:12:24 UTC</createdTime>
+<generatorID>8F85DA82-8B79-BC1F-A3B7-EC830AEAE155</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="77DACD3E-E543-5131-6C39-E45827C79F14" referredColumn="F3652F6A-94CA-9EC2-C062-2B29339E9517"/>
+</associations>
+</Column>
+<Column name="Petugas_id_Petugas" id="64337D4F-7E90-A7DF-7E78-AB1A58652382">
+<createdBy>H P</createdBy>
+<createdTime>2023-05-03 12:12:24 UTC</createdTime>
+<generatorID>A5B52B0F-7357-FE7B-256A-D1C5C17C2F14</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C725ECD7-BC08-F15C-1F30-1C94721F19D0" referredColumn="25683EEC-48AE-9A61-3BE2-9752B9AEE8D2"/>
+</associations>
+</Column>
+<Column name="Penduduk_id_Penduduk" id="825EEA67-9CA3-600D-765D-76D37BA61203">
+<createdBy>H P</createdBy>
+<createdTime>2023-05-03 12:12:24 UTC</createdTime>
+<generatorID>A559C075-8268-A00F-702E-46BEB7468FF1</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="07B590B6-CA10-7385-6D1E-B0492A113274" referredColumn="4D98A3DC-D7D1-AD64-00D3-2F6178BC7C0E"/>
+</associations>
+</Column>
+<Column name="Jenis_Surat_id_jenis" id="102000BE-E3FA-E8F0-7B52-2FB1894891B6">
+<createdBy>H P</createdBy>
+<createdTime>2023-05-03 12:12:24 UTC</createdTime>
+<generatorID>481CD25E-F1A4-6193-D14D-7708D684A4A5</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="50405424-903E-BDEB-554F-BC960D14712F" referredColumn="3610A386-20B9-6290-510B-61EA9A7A3C81"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1CC7FA2E-2527-BCED-A6DA-A6B01FB25150" name="Permohonan_Surat_PK">
+<createdBy>H P</createdBy>
+<createdTime>2023-05-03 12:12:24 UTC</createdTime>
+<generatorID>FD93A039-9AE2-B9C5-9E1F-FB319FEB89B3</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="237B7AD6-6F0E-733E-73E8-AE4C6BB41051"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="297C48F8-25BD-B401-C284-4800739171C8" name="Permohonan_Surat_no_surat_UN">
+<createdBy>H P</createdBy>
+<createdTime>2023-05-03 12:12:24 UTC</createdTime>
+<generatorID>C54E29E9-CBF0-8176-094A-A66F03C5629B</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="93930049-BDA4-2167-DFC4-9F56BAE74698"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="13E7A8B8-8741-CF75-EA87-163230F9CE54" name="Permohonan_Surat_Penduduk_FK">
+<createdBy>H P</createdBy>
+<createdTime>2023-05-03 12:12:24 UTC</createdTime>
+<generatorID>5604E0BF-D209-1175-CE2F-36004E9BB37C</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="825EEA67-9CA3-600D-765D-76D37BA61203"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7FB58E53-2CE4-5944-3E56-9EB663566828" name="Permohonan_Surat_Jenis_Surat_FK">
+<createdBy>H P</createdBy>
+<createdTime>2023-05-03 12:12:24 UTC</createdTime>
+<generatorID>E57C472A-1A34-F889-943C-912A0BBE41AA</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="102000BE-E3FA-E8F0-7B52-2FB1894891B6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B6DCD85F-157F-21B7-4EBC-EEDEDB91B8FA" name="Permohonan_Surat_Kepala_Desa_FK">
+<createdBy>H P</createdBy>
+<createdTime>2023-05-03 12:12:24 UTC</createdTime>
+<generatorID>DC16A410-69D7-5E7E-0BA4-D7FB18E1BEA8</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B497C7AC-BE99-1B72-1CF2-570264145A04"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="65D97A9C-A92D-5759-D6D6-BFA1B97CE3DA" name="Permohonan_Surat_Petugas_FK">
+<createdBy>H P</createdBy>
+<createdTime>2023-05-03 12:12:24 UTC</createdTime>
+<generatorID>EDFE427A-D23B-AE82-FCC4-0F7D814EE4D8</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="64337D4F-7E90-A7DF-7E78-AB1A58652382"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

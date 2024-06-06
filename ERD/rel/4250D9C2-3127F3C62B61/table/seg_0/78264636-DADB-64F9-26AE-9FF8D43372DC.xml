@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="78264636-DADB-64F9-26AE-9FF8D43372DC" name="SKBM">
+<createdBy>H P</createdBy>
+<createdTime>2023-05-03 12:12:24 UTC</createdTime>
+<generatorID>E9E8108F-BF7B-3F6C-5EBC-DF10F6B4AFD2</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="fc_ktp_saksi" id="7087B75C-8406-E389-7BC7-A2C852A048D4">
+<createdBy>H P</createdBy>
+<createdTime>2023-05-03 12:12:24 UTC</createdTime>
+<generatorID>239E6BC6-E1BA-6002-B93B-9972F393CFA4</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT010</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_persyaratan" id="6AC1428B-78C9-826C-5BDA-D6E6AA2FD507">
+<createdBy>H P</createdBy>
+<createdTime>2023-05-03 12:27:28 UTC</createdTime>
+<generatorID>77EB91AC-C667-FDAF-AF6D-44C4C04EDE36</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E6A9A5F1-E560-24BE-8AA6-9DB6934C1B63" referredColumn="4E85E657-B26F-962D-8DEC-D4ADB901BF44"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="80CC97C1-4E5D-F1EA-B673-446AE9CFDD17" name="SKBM_PK">
+<createdBy>H P</createdBy>
+<createdTime>2023-05-03 12:27:28 UTC</createdTime>
+<generatorID>8200E354-D152-7971-1994-0517723521E3</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6AC1428B-78C9-826C-5BDA-D6E6AA2FD507"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BFFEBA4B-3402-D62C-C35C-E92A17B71468" name="SKBM_Persyaratan_FK">
+<createdBy>H P</createdBy>
+<createdTime>2023-05-03 12:27:28 UTC</createdTime>
+<generatorID>1466B6B2-A3D5-C5E8-6D9B-6DFFC585200A</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6AC1428B-78C9-826C-5BDA-D6E6AA2FD507"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

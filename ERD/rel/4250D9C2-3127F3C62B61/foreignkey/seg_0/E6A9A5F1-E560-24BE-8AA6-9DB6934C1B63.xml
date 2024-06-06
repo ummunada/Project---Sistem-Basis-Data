@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E6A9A5F1-E560-24BE-8AA6-9DB6934C1B63" containerWithKeyObject="78264636-DADB-64F9-26AE-9FF8D43372DC" localFKIndex="BFFEBA4B-3402-D62C-C35C-E92A17B71468" name="SKBM_Persyaratan_FK">
+<createdBy>H P</createdBy>
+<createdTime>2023-05-03 12:27:28 UTC</createdTime>
+<generatorID>1466B6B2-A3D5-C5E8-6D9B-6DFFC585200A</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<referredTableLongName>Persyaratan</referredTableLongName>
+<arc>4F49CB70-F2FD-26C0-AD2D-6B6701DE5C4D</arc>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>EA7C7CF7-2AE2-251F-5917-3DD29F43CA5B</referredTableID>
+<keyObject>3C763446-53B6-A061-52DC-EFB348842D77</keyObject>
+<referredKeyID>3C763446-53B6-A061-52DC-EFB348842D77</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_persyaratan</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

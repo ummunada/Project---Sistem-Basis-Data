@@ -1,0 +1,177 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5592614B-0869-F5F5-48B2-EBCCFAF9CA2C" name="Permohonan_Surat">
+<createdBy>Icha</createdBy>
+<createdTime>2023-04-30 23:04:44 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="4250D9C2-9CBD-5FA1-A971-3127F3C62B61" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_permohonan" id="40DD28E8-A562-769B-0203-F5B44C861E82">
+<createdBy>Icha</createdBy>
+<createdTime>2023-04-30 23:04:59 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="4250D9C2-9CBD-5FA1-A971-3127F3C62B61" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tanggal_permohonan" id="BF3919E4-3B4D-D5E0-F817-C45FD7356F4A">
+<createdBy>Icha</createdBy>
+<createdTime>2023-04-30 23:06:26 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="4250D9C2-9CBD-5FA1-A971-3127F3C62B61" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="no_surat" id="4561ABAA-27C6-D939-2889-9BE20330CFA9">
+<createdBy>Icha</createdBy>
+<createdTime>2023-04-30 23:06:36 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="4250D9C2-9CBD-5FA1-A971-3127F3C62B61" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="keperluan" id="22213564-37CA-FFA0-4514-EF8A5D67DA62">
+<createdBy>Icha</createdBy>
+<createdTime>2023-04-30 23:06:53 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="4250D9C2-9CBD-5FA1-A971-3127F3C62B61" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="status" id="55E35328-9E6E-2983-99F6-14DA5BDBF527">
+<createdBy>Icha</createdBy>
+<createdTime>2023-04-30 23:07:04 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="4250D9C2-9CBD-5FA1-A971-3127F3C62B61" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>64</dataTypeSize>
+<ownDataTypeParameters>64,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="keterangan" id="A807F2B6-1854-9311-3F9D-56CD7439D1A1">
+<createdBy>Icha</createdBy>
+<createdTime>2023-04-30 23:07:15 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="4250D9C2-9CBD-5FA1-A971-3127F3C62B61" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_kepala_desa1" id="8F85DA82-8B79-BC1F-A3B7-EC830AEAE155">
+<createdBy>Icha</createdBy>
+<createdTime>2023-04-30 23:39:54 UTC</createdTime>
+<generatorID>DC16A410-69D7-5E7E-0BA4-D7FB18E1BEA8</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="4250D9C2-9CBD-5FA1-A971-3127F3C62B61" value="true"/>
+</engineerTo>
+<referedAttribute>C06EDF99-9957-2097-7E19-FB0B5C079AD7</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_Petugas1" id="A5B52B0F-7357-FE7B-256A-D1C5C17C2F14">
+<createdBy>Icha</createdBy>
+<createdTime>2023-05-01 01:28:42 UTC</createdTime>
+<generatorID>EDFE427A-D23B-AE82-FCC4-0F7D814EE4D8</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="4250D9C2-9CBD-5FA1-A971-3127F3C62B61" value="true"/>
+</engineerTo>
+<referedAttribute>0C931A6E-16CA-F21A-A514-BB420B44B9A1</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_Penduduk" id="A559C075-8268-A00F-702E-46BEB7468FF1">
+<createdBy>Icha</createdBy>
+<createdTime>2023-05-02 05:23:11 UTC</createdTime>
+<generatorID>5604E0BF-D209-1175-CE2F-36004E9BB37C</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="4250D9C2-9CBD-5FA1-A971-3127F3C62B61" value="true"/>
+</engineerTo>
+<referedAttribute>68A62023-F109-541A-55A7-C88198017E18</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_jenis" id="481CD25E-F1A4-6193-D14D-7708D684A4A5">
+<createdBy>Icha</createdBy>
+<createdTime>2023-05-02 10:30:00 UTC</createdTime>
+<generatorID>E57C472A-1A34-F889-943C-912A0BBE41AA</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="4250D9C2-9CBD-5FA1-A971-3127F3C62B61" value="true"/>
+</engineerTo>
+<referedAttribute>BADE4932-48F2-0B13-2C00-A69AEEDF77DF</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="FD93A039-9AE2-B9C5-9E1F-FB319FEB89B3" name="Permohonan_Surat PK">
+<createdBy>Icha</createdBy>
+<createdTime>2023-04-30 23:05:14 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="4250D9C2-9CBD-5FA1-A971-3127F3C62B61" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>40DD28E8-A562-769B-0203-F5B44C861E82</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="C54E29E9-CBF0-8176-094A-A66F03C5629B" name="Key_2">
+<createdBy>Icha</createdBy>
+<createdTime>2023-05-01 01:34:40 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="4250D9C2-9CBD-5FA1-A971-3127F3C62B61" value="false"/>
+</engineerTo>
+<newElementsIDs>4561ABAA-27C6-D939-2889-9BE20330CFA9</newElementsIDs>
+<usedAttributes>
+<attributeRef>4561ABAA-27C6-D939-2889-9BE20330CFA9</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
